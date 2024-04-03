@@ -1,0 +1,11 @@
+dict={
+    "fname":"ABC",
+    "lname":"XYZ",
+    "xoxo":123
+}
+print(dict)
+dict["num"]=456
+print(dict)
+dict.update({"xoxo":789})
+print(dict)
+print(dict["fname"])

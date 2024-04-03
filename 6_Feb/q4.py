@@ -1,0 +1,10 @@
+set={"XYZ","ABC"}
+set1={"DEF","KIIT","ABC"}
+print(set)
+print(set1)
+k=set.union(set1)
+print(k)
+y=set.intersection(set1)
+print(y)
+z=set.difference(set1)
+print(z)
